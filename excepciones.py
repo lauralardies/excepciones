@@ -2,13 +2,8 @@ import re
 
 class CorreoElectronico:
 
-    def __init__(self) -> None:
-        self.correo = self.get_correo()
-
-    def get_correo(self): 
-    # Esta función permite que el usuario pueda introducir la dirección de su correo
-        correo_usuario = input("Introduzca su correo electrónico: ")
-        return correo_usuario
+    def __init__(self, correo_usuario) -> None:
+        self.correo = correo_usuario
 
     def valido(self): 
     # Esta función se asegura que el correo introducido sea de la forma xxx@xxx.xx, de no ser de esa forma hace un return False.

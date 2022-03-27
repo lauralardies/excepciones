@@ -1,7 +1,8 @@
 from excepciones import CorreoElectronico
 
 while True:
-    correo = CorreoElectronico()
+    correo_usuario = input("Introduzca su correo electrónico: ")
+    correo = CorreoElectronico(correo_usuario)
     if correo.valido() == False:
         print("No ha introducido un correo válido, por favor inténtelo de nuevo. La dirección de correo debe tener la forma xxx@xxx.xx")
     else:

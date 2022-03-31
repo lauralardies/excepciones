@@ -4,7 +4,7 @@
 Mi dirección de GitHub para este repositorio es la siguiente: [GitHub](https://github.com/lauralardies/excepciones)
 https://github.com/lauralardies/excepciones
 
-Hemos creado una clase en la que se analice el correo introducido. Al inicializar la clase, se pasa la variable del correo del usuario. Esta clase tiene  dos funciones, una que verifica si tiene la forma xxx@xxx.xx y otra que se asegura que el correo existe. Este es el código de la clase:
+Hemos creado una clase en la que se analice el correo introducido. Al inicializar la clase, se pasa la variable del correo del usuario. Esta clase tiene  dos funciones, una que verifica si tiene la forma "xxx@xxx.xx" y otra que se asegura que el correo existe. Este es el código de la clase:
 ```
 import re
 

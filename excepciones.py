@@ -9,6 +9,8 @@ class CorreoElectronico:
     # Esta función se asegura que el correo introducido sea de la forma xxx@xxx.xx, de no ser de esa forma hace un return False.
         if re.search(".+@.+\..+", self.correo) == None:
             return False
+        else:
+            return True
         
     def existe(self): 
     # Esta función de asegura que el correo introducido existe, después de ver si es válido. Las condiciones que hemos puesto 
@@ -16,3 +18,6 @@ class CorreoElectronico:
     # hace un return False.
         if re.search("\..{2,3}$", self.correo) == None:
             return False
+        else:
+            return True
+        
